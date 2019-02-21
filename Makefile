@@ -6,7 +6,7 @@
 # Compile flags
 
 CC = gcc
-COPT = -O3 -march=native
+COPT = -O2
 CFLAGS = -Wall -Wextra -Wpedantic -Werror -std=gnu11 -D_GNU_SOURCE
 CFLAGS += -D BUILD_VERSION="\"$(shell git describe --dirty --always)\""	\
 		-D BUILD_DATE="\"$(shell date '+%Y-%m-%d_%H:%M:%S')\""
