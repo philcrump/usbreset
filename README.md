@@ -1,7 +1,6 @@
 usbreset  [![Build Status](https://travis-ci.org/philcrump/usbreset.svg?branch=master)](https://travis-ci.org/philcrump/usbreset)
 ==========
-
-Linux application to reset USB devices.
+Linux application to reset USB device endpoints.
 
 Usage: usbreset <vendor-id> <product-id>
 
